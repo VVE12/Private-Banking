@@ -1,0 +1,148 @@
+/* Header menu mobile */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.header-menu__mobile {
+    display: none;
+    background: $primaryFontColorWhite;
+    z-index: 2;
+}
+
+.menu {
+    display: none;
+    >li {
+        border-top: 1px solid $additionalFontColorSolitudeFirst !important;
+        border-bottom: 1px solid $additionalFontColorSolitudeFirst !important;
+    }
+}
+
+.collapsible {
+    font-size: $additionalFontSizeLarge;
+    line-height: $additionalLineHeightMedium;
+    font-weight: $primaryFontWeight;
+    color: $primaryFontColorBlack;
+    background-color: $primaryFontColorWhite;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+}
+
+.active {
+    background-color: $primaryFontColorWhite;
+    outline: none;
+    color: $primaryFontColorBlue;
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+}
+
+.collapsible {
+    &:hover {
+        background-color: $primaryFontColorWhite;
+        outline: none;
+        color: $primaryFontColorBlue;
+        transition: all 0.3s ease-out;
+        -webkit-transition: all 0.3s ease-out;
+        -moz-transition: all 0.3s ease-out;
+        -ms-transition: all 0.3s ease-out;
+        -o-transition: all 0.3s ease-out;
+    }
+    &:after {
+        content: url("/assets/img/icons/arrow-down__gray.svg");
+        font-weight: $primaryFontWeight;
+        float: right;
+        margin-left: 5px;
+        outline: none;
+    }
+    &:active {
+        color: $primaryFontColorBlue;
+    }
+}
+
+.active:after {
+    content: url("/assets/img/icons/arrow-up__blue.svg");
+    color: $primaryFontColorBlue;
+    outline: none;
+}
+
+.content {
+    font-family: $primaryFont;
+    font-style: $primaryFontStyle;
+    font-weight: $secondaryFontWeight;
+    font-size: $additionalFontSizeLarge;
+    line-height: $additionalLineHeightLarge;
+    color: $primaryFontColorGray;
+    outline: none;
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    background-color: $primaryFontColorWhite;
+    transition: max-height 0.3s ease-out;
+    -webkit-transition: max-height 0.3s ease-out;
+    -moz-transition: max-height 0.3s ease-out;
+    -ms-transition: max-height 0.3s ease-out;
+    -o-transition: max-height 0.3s ease-out;
+    >p:hover {
+        cursor: pointer;
+        color: $primaryFontColorBlue;
+        transition: all 0.3s ease-out;
+        -webkit-transition: all 0.3s ease-out;
+        -moz-transition: all 0.3s ease-out;
+        -ms-transition: all 0.3s ease-out;
+        -o-transition: all 0.3s ease-out;
+    }
+}
+
+.non-collapsible {
+    background-color: $primaryFontColorWhite;
+    color: $primaryFontColorBlack;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: $additionalFontSizeLarge;
+    font-weight: $primaryFontWeight;
+    &:hover {
+        color: $primaryFontColorBlue;
+        transition: all 0.3s ease-out;
+        -webkit-transition: all 0.3s ease-out;
+        -moz-transition: all 0.3s ease-out;
+        -ms-transition: all 0.3s ease-out;
+        -o-transition: all 0.3s ease-out;
+    }
+}
+
+.non-collapsible__phone {
+    cursor: pointer;
+    background-color: $primaryFontColorWhite;
+    font-family: $secondaryFont;
+    font-style: $primaryFontStyle;
+    font-weight: $primaryFontWeight;
+    font-size: $additionalFontSizeLarge;
+    line-height: $additionalLineHeightMedium;
+    letter-spacing: $primaryLetterSpacing;
+    text-transform: uppercase;
+    color: $primaryFontColorOrange;
+    text-decoration: none;
+    border: none;
+    padding: 18px;
+    &:hover {
+        color: $primaryFontColorOrange;
+        transition: all 0.3s ease-out;
+        -webkit-transition: all 0.3s ease-out;
+        -moz-transition: all 0.3s ease-out;
+        -ms-transition: all 0.3s ease-out;
+        -o-transition: all 0.3s ease-out;
+    }
+}

@@ -1,0 +1,42 @@
+/* Buttons */
+
+.button-common {
+    display: inline-block;
+    font-family: $secondaryFont;
+    background-color: $primaryFontColorBlue;
+    color: $primaryFontColorWhite;
+    text-align: center;
+    &:focus {
+        outline: none !important;
+    }
+}
+
+button:focus {
+    outline: none !important;
+}
+
+.dropdown-block__button {
+    font-size: $secondaryFontSizeSmall;
+    line-height: $secondaryLineHeightLarge;
+    padding: 20px 0px;
+    width: 280px;
+    text-decoration: none;
+    &:hover {
+        color: $primaryFontColorWhite;
+        text-decoration: none;
+    }
+}
+
+.banner-button,
+.main-button {
+    font-size: $secondaryFontSizeSmall;
+    line-height: $secondaryLineHeightLarge;
+    padding: 20px 0px;
+    width: 270px;
+    height: 70px;
+    text-decoration: none;
+    &:hover {
+        color: $primaryFontColorWhite;
+        text-decoration: none;
+    }
+}

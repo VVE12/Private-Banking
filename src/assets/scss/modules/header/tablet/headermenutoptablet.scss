@@ -1,0 +1,21 @@
+/* Header menu top tablet */
+
+.header-tablet {
+    display: none;
+}
+
+.header-menu_top_tablet {
+    display: flex;
+    padding: 15px 0px;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.header-menu_block_tablet {
+    display: flex;
+    max-width: 350px;
+    width: 100%;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    align-items: center;
+}

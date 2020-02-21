@@ -1,0 +1,66 @@
+/* Footer */
+
+.footer {
+    background: $primaryFontColorBlackRussian;
+}
+
+.footer-blocks {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding-top: 73.51px;
+}
+
+.footer-block__common {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    max-width: 585px;
+    width: 100%;
+}
+
+.footer-common__block {
+    max-width: 237px;
+    width: 100%;
+    color: $primaryFontColorGray;
+}
+
+.footer-common_block_hidden_second,
+.footer-common_block_hidden_fourth,
+.footer-title__second {
+    display: none;
+}
+
+.footer-common__block p {
+    font-family: $secondaryFont;
+    font-style: $primaryFontStyle;
+    font-weight: $secondaryFontWeight;
+    font-size: $secondaryFontSizeSmall;
+    line-height: $secondaryLineHeightLarge;
+    color: $primaryFontColorWhite;
+}
+
+.footer-block {
+    display: flex;
+    flex-direction: column;
+    font-family: $primaryFont;
+    font-style: $primaryFontStyle;
+    font-weight: $secondaryFontWeight;
+    font-size: $additionalFontSizeLarge;
+    line-height: $additionalLineHeightLarge;
+    color: $primaryFontColorGray;
+    padding-left: 0px;
+    >a {
+        color: $primaryFontColorGray;
+        text-decoration: none;
+        &:hover {
+            color: $primaryFontColorBlue;
+            text-decoration: none;
+            transition: all 0.3s ease-out;
+            -webkit-transition: all 0.3s ease-out;
+            -moz-transition: all 0.3s ease-out;
+            -ms-transition: all 0.3s ease-out;
+            -o-transition: all 0.3s ease-out;
+        }
+    }
+}

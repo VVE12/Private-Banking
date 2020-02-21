@@ -1,0 +1,14 @@
+.wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+html {
+    font-size: 45px;
+    color: #000;
+    height: 100%
+}
+
+
+/*# sourceMappingURL=app.css.map*/

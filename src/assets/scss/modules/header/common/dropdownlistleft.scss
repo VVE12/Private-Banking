@@ -1,0 +1,31 @@
+/* Dropdown list left */
+
+.dropdown-list_block_last {
+    max-width: 280px;
+    width: 100%;
+}
+
+.dropdown-block__left {
+    margin-top: 50px;
+    width: 280px;
+    height: 135px;
+    background: $secondaryFontColorHawkesBlue;
+}
+
+.dropdown-block_left_image {
+    position: absolute;
+    width: 280px;
+    height: 185px;
+    top: 24px;
+}
+
+.dropdown-block__text {
+    font-family: $secondaryFont;
+    font-style: $primaryFontStyle;
+    font-weight: $primaryFontWeight;
+    font-size: $additionalFontSizeLarge;
+    line-height: $primaryLineHeightSmall;
+    color: $primaryFontColorBlack;
+    padding-top: 13px;
+    padding-bottom: 22px;
+}

@@ -1,0 +1,212 @@
+/* Main second blocks */
+
+.main-second__blocks {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding-top: 55px;
+}
+
+.main-second_common_block {
+    max-width: 570px;
+    width: 100%;
+}
+
+.main-second_icon-left::before {
+    content: url("/assets/img/icons/icon-exchange.svg");
+    padding-right: 9.69px;
+    height: 100%;
+    max-height: 12px;
+    width: 100%;
+    max-width: 38px;
+}
+
+.main-second__title {
+    font-family: $secondaryFont;
+    font-style: $primaryFontStyle;
+    font-weight: $secondaryFontWeight;
+    font-size: $secondaryFontSizeSmall;
+    line-height: $secondaryLineHeightLarge;
+    color: $primaryFontColorOrange;
+    display: flex;
+    padding-bottom: 20px;
+    p {
+        font-family: $secondaryFont;
+        font-size: $secondaryFontSizeSmall;
+        line-height: $secondaryLineHeightLarge;
+        color: $primaryFontColorGray;
+        padding-left: 10px;
+        margin-bottom: 0px;
+    }
+}
+
+.main-second_icon-right::before {
+    content: url("/assets/img/icons/icon-coins.svg");
+    padding-right: 9.69px;
+    height: 100%;
+    max-height: 12px;
+    width: 100%;
+    max-width: 38px;
+}
+
+.main-second__block {
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    max-width: 570px;
+    width: 100%;
+    max-height: 430px;
+    height: 100%;
+}
+
+.main-second_block_top {
+    border: 1px solid $additionalFontColorGrayFourth;
+    max-width: 570px;
+    width: 100%;
+    max-height: 360px;
+    height: 100%;
+    padding: 40px 30px;
+}
+
+.main-second_common_row {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    font-family: $primaryFont;
+    font-size: $additionalFontSizeMedium;
+    line-height: $additionalLineHeightSmallFirst;
+    letter-spacing: $primaryLetterSpacing;
+    text-transform: uppercase;
+    color: $primaryFontColorGray;
+    padding: 0;
+}
+
+.main-second_left_row_first {
+    max-width: 430px;
+    width: 100%;
+    padding-bottom: 12px;
+}
+
+.main-second__borderline {
+    border-bottom: 1px solid $additionalFontColorGrayFourth;
+}
+
+.main-second_left_row_second {
+    padding-top: 44px;
+}
+
+.main-left_column_first {
+    font-family: $primaryFontBold;
+    font-size: $secondaryFontSizeSmall;
+    font-weight: $primaryFontWeight;
+    line-height: $secondaryLineHeightMedium;
+    letter-spacing: $primaryLetterSpacing;
+    text-transform: uppercase;
+    color: $primaryFontColorGray;
+}
+
+.main-left_column_second {
+    width: 70px;
+    height: 25px;
+}
+
+.main-left_graph_first {
+    content: url("/assets/img/icons/graph-first.svg");
+}
+
+.main-second__numbers {
+    font-family: $secondaryFont;
+    font-weight: $primaryFontWeight;
+    font-size: $secondaryFontSizeSmall;
+    line-height: $secondaryLineHeightSmall;
+    color: $primaryFontColorBlack;
+}
+
+.main-left_arrow_down::after {
+    content: url("/assets/img/icons/arrow-down.svg");
+    padding-left: 10px;
+    width: 9px;
+    height: 13px;
+}
+
+.main-left_arrow_up::after {
+    content: url("/assets/img/icons/arrow-up.svg");
+    padding-left: 10px;
+    width: 9px;
+    height: 13px;
+}
+
+.main-second_left_row_third {
+    padding-top: 32px;
+}
+
+.main-left_graph_second {
+    content: url("/assets/img/icons/graph-second.svg");
+}
+
+.main-left_graph_third {
+    content: url("/assets/img/icons/graph-third.svg");
+}
+
+.main-left_graph_fourth {
+    content: url("/assets/img/icons/graph-fourth.svg");
+}
+
+.main-second_right_row {
+    max-width: 455px;
+    width: 100%;
+    padding-bottom: 12px;
+}
+
+.main-second_item_padding {
+    padding-left: 50px;
+}
+
+.main-second_padding_row {
+    padding-top: 30px;
+}
+
+.main-second_right_coins,
+.main-second_coin_top img {
+    max-width: 101px;
+    width: 100%;
+    max-height: 105px;
+    height: 100%;
+}
+
+.main-second_right_inner {
+    font-family: $primaryFont;
+    font-style: $primaryFontStyle;
+    font-weight: $secondaryFontWeight;
+    font-size: $secondaryFontSizeSmall;
+    line-height: $secondaryLineHeightMedium;
+    color: $primaryFontColorGray;
+    text-transform: capitalize;
+    padding-top: 25px;
+    max-width: 350px;
+    width: 100%;
+}
+
+.main-second_inner_text {
+    text-transform: initial;
+}
+
+.main-second_right_block {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-left: 0;
+}
+
+.main-second_number_padding {
+    padding-left: 30px;
+}
+
+.main-second_coin_bottom img {
+    max-width: 101px;
+    width: 100%;
+    max-height: 105px;
+    height: 100%;
+}

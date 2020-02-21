@@ -1,0 +1,33 @@
+/* Settings */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+ol,
+ul,
+dl,
+h1,
+h2,
+p {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    list-style-type: none;
+}
+
+.wrapper {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}

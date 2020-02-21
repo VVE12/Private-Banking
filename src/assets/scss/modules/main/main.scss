@@ -1,0 +1,24 @@
+/* Main */
+
+.main {
+    padding-bottom: 145px;
+}
+
+.main-title {
+    padding-top: 74px;
+    h1 {
+        font-family: $primaryFontBold;
+        font-size: $secondaryFontSizeLarge;
+        line-height: $primaryLineHeightLarge;
+        font-weight: $primaryFontWeight;
+    }
+}
+
+@import "mainfirstblocks/mainfirst.scss";
+@import "mainsecondblocks/mainsecond.scss";
+@import "mainthirdblocks/mainthird.scss";
+@import "mainfourthblocks/mainfourth.scss";
+@import "mainfifthblocks/mainfifth.scss";
+@import "mainhiddenshownblocks/mainhiddenshown.scss";
+@import "mainfourthfifthblocks/mainfourthfifth.scss";
+@import "mainsixthblocks/mainsixth.scss"

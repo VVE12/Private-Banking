@@ -1,0 +1,31 @@
+/* Main second blocks tablet tabs */
+
+.main-second_blocks_tablet_tabs {
+    display: none;
+}
+
+.main-second__tab {
+    display: flex;
+    overflow: hidden;
+    button {
+        background-color: inherit;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding-right: 100px;
+        padding-bottom: 20px;
+        transition: 0.3s;
+    }
+}
+
+.main-second__tablinks {
+    justify-content: space-between;
+}
+
+.main-second__tab button.active:after {
+    content: none;
+}
+
+.main-second__tabcontent {
+    display: none;
+}

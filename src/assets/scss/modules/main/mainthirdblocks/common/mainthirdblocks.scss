@@ -1,0 +1,52 @@
+/* Main third blocks */
+
+.main-third__blocks {
+    padding-top: 80px;
+}
+
+.main-third_common_block {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    background: $additionalFontColorSolitudeSecond;
+    height: 275px;
+}
+
+.main-third_block_left {
+    padding: 30px 40px;
+}
+
+.main-third_block_image {
+    max-width: 566px;
+    max-height: 275px;
+    img {
+        max-width: 566px;
+        max-height: 275px;
+    }
+}
+
+.main-third_block_left {
+    h1 {
+        font-family: $primaryFontBold;
+        font-style: $primaryFontStyle;
+        font-weight: $primaryFontWeight;
+        font-size: $secondaryFontSizeMedium;
+        line-height: $primaryLineHeightLarge;
+        align-items: center;
+        color: $primaryFontColorBlack;
+    }
+    h2 {
+        font-family: $primaryFont;
+        font-style: $primaryFontStyle;
+        font-weight: $secondaryFontWeight;
+        font-size: $additionalFontSizeLarge;
+        line-height: $secondaryLineHeightMedium;
+        align-items: center;
+        color: $primaryFontColorGray;
+        padding-bottom: 22px;
+        >a {
+            color: $primaryFontColorBlue !important;
+            text-decoration: none !important;
+        }
+    }
+}

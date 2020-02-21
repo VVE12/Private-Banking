@@ -1,0 +1,101 @@
+/* Banner */
+
+.banner {
+    background-color: $primaryFontColorPaleBlue;
+}
+
+.banner-blocks {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.banner-slider {
+    max-width: 740px;
+    width: 100%;
+    margin-bottom: 0px !important;
+}
+
+.banner-slider {
+    h1 {
+        font-family: $primaryFontBold;
+        font-style: $primaryFontStyle;
+        font-weight: $primaryFontWeight;
+        font-size: $primaryFontSizeLarge;
+        line-height: $primaryLineHeightLarge;
+        color: $primaryFontColorBlack;
+        padding-top: 103px;
+    }
+    h2 {
+        font-family: $primaryFont;
+        font-style: $primaryFontStyle;
+        font-weight: $secondaryFontWeight;
+        font-size: $secondaryFontSizeSmall;
+        line-height: $primaryLineHeightSmall;
+        color: $primaryFontColorGray;
+        max-width: 481px;
+        width: 100%;
+        padding-top: 22px;
+        padding-bottom: 51px;
+    }
+}
+
+.slick-prev,
+.slick-next {
+    display: none!important;
+}
+
+.slick-list.draggable {
+    padding: 0px!important;
+}
+
+.slick-dots {
+    bottom: -53px;
+    text-align: left;
+    width: unset;
+    li {
+        height: 10px;
+        width: 10px;
+        margin: 0 5px;
+        button {
+            height: 10px;
+            width: 10px;
+            padding: 0px;
+            cursor: pointer;
+            background: $additionalFontColorGrayFourth;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+            &:hover,
+            &:focus {
+                outline: none;
+                &:before {
+                    opacity: 0;
+                }
+            }
+            &:before {
+                content: none;
+            }
+        }
+        &.slick-active button {
+            background-color: #003DB1!important;
+        }
+    }
+}
+
+.banner-block__right {
+    max-width: 422px;
+    img {
+        max-width: 422px;
+    }
+}
+
+.banner-block_right_mobile {
+    display: none;
+    max-width: 128px;
+    img {
+        max-width: 128px;
+    }
+}

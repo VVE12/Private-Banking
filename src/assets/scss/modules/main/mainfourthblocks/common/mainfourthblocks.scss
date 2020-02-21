@@ -1,0 +1,66 @@
+/* Main fourth blocks */
+
+.main-fourth__blocks {
+    padding-top: 75px;
+}
+
+.main-fourth_common_block {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    height: 380px;
+}
+
+.main-fifth_block_hidden {
+    display: none;
+}
+
+.main-fourth__block {
+    background-color: $additionalFontColorSolitudeSecond;
+}
+
+.main-fourth_block_top_left {
+    max-width: 770px;
+    width: 100%;
+}
+
+.main-fourth_inner_block {
+    max-height: 170px;
+    height: 100%;
+    padding: 60px 40px 0px 40px;
+    h1 {
+        font-family: $primaryFontBold;
+        font-style: $primaryFontStyle;
+        font-weight: $primaryFontWeight;
+        font-size: $secondaryFontSizeMedium;
+        line-height: $secondaryLineHeightLarge;
+        align-items: center;
+        color: $primaryFontColorBlack;
+        padding-bottom: 10px !important;
+    }
+    h2 {
+        font-family: $primaryFont;
+        font-style: $primaryFontStyle;
+        font-weight: $secondaryFontWeight;
+        font-size: $additionalFontSizeLarge;
+        line-height: $secondaryLineHeightMedium;
+        align-items: center;
+        color: $primaryFontColorGray;
+    }
+}
+
+.main-fourth_block_left_image img {
+    float: right;
+}
+
+.main-fourth_block_top_right {
+    max-width: 369px;
+    width: 100%;
+}
+
+.main-fourth_block_right_image {
+    img {
+        float: right;
+        padding-top: 7px;
+    }
+}
